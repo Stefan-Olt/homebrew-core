@@ -25,6 +25,7 @@ class Mvtools < Formula
   depends_on "vapoursynth"
 
   # Fixes build issues on arm
+  # https://github.com/dubhater/vapoursynth-mvtools/pull/55
   patch :DATA
 
   def install
